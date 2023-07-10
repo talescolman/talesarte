@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f0f0f0;
+    font-family: talesarte, arial;
+    font-size: 16px;
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: 40px auto;
+    border: 4px solid black;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 48px;
+    text-align: center;
+}
+
+p {
+    line-height: 1.5;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    width: 200px;
+    height: 40px;
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+@font-face {
+    font-family: "talesarte";
+    src: url("talesarte.otf") format("opentype");
+  }
